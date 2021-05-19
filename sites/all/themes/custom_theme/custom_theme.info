@@ -1,0 +1,66 @@
+name = 'custom_theme'
+description = 'A Drupal Bootstrap 3 based sub-theme.'
+core = 7.x
+php = 5.3.0
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]                 = 'Navigation'
+regions[header]                     = 'Top Bar'
+
+regions[main_slide_title]           = 'Main Slide Title'
+regions[main_slide_text]            = 'Main Slide Text'
+regions[main_slide_button_text]     = 'Main Slide Button Text'
+
+regions[banner_title]               = 'Banner Title'
+regions[banner_text]                = 'Banner Text'
+regions[banner_button_text]         = 'Banner Button Text'
+
+
+
+regions[icons_banner_title]         = 'Icons Banner Title'
+
+
+regions[banner_first_icon_title]    = 'Banner First Icon Title'
+regions[banner_first_icon_text]     = 'Banner First Icon Text'
+
+regions[banner_second_icon_title]   = 'Banner Second Icon Title'
+regions[banner_second_icon_text]    = 'Banner Second Icon Text'
+
+regions[banner_third_icon_title]    = 'Banner Third Icon Title'
+regions[banner_third_icon_text]     = 'Banner Third Icon Text'
+
+regions[banner_fourth_icon_title]   = 'Banner Fourth Icon Title'
+regions[banner_fourth_icon_text]    = 'Banner Fourth Icon Text'
+
+regions[third_banner_title]         = 'Third Banner Title'
+regions[third_banner_button_text]   = 'Third Banner Button Text'
+
+regions[contact_section_title]      = 'Contact Section Title'
+regions[contact_section_text]       = 'Contact Section Text'
+
+regions[contact_section_phone]      = 'Contact Section phone'
+regions[contact_section_email]      = 'Contact Section Email'
+
+regions[footer_first_column]        = 'Footer first column'
+regions[footer_second_column]       = 'Footer second column'
+regions[footer_third_column]        = 'Footer third column'
+regions[footer_fourth_column]       = 'Footer fourth column'
+regions[footer]                     = 'Footer'
+
+regions[highlighted]                = 'Highlighted'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+stylesheets[all][] = css/style.css
+
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+scripts[] = 'js/scripts.js'
